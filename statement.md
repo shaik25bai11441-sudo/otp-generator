@@ -5,36 +5,36 @@ The core issue this code resolves is the necessity for a simple, adaptable, and 
 # Scope of the Project
 The scope of the SimpleOTP project is narrow and focused on basic code generation utility.
 
-#   *Inclusions:
+#   * Inclusions:
 
-   *It provides a dedicated class (SimpleOTP) for managing the generation of random strings.
+   * It provides a dedicated class (SimpleOTP) for managing the generation of random strings.
 
-   *It allows users to specify the length of the desired OTP during initialization.
+   * It allows users to specify the length of the desired OTP during initialization.
 
-   *It offers convenient, built-in methods (via the @property decorator) to generate codes using several predefined character sets: digits only, uppercase letters and digits, lowercase letters and digits, or all      alphanumeric characters.
+   * It offers convenient, built-in methods (via the @property decorator) to generate codes using several predefined character sets: digits only, uppercase letters and digits, lowercase letters and digits, or all      alphanumeric characters.
 
-   *It relies exclusively on standard Python libraries (random and string).
+   * It relies exclusively on standard Python libraries (random and string).
 
-#   *Exclusions:
+#   * Exclusions:
    
-   *Security: The code explicitly uses general-purpose randomness (random.choices) and does not utilize secure, cryptographically strong random number generation, which is essential for high-security applications.
+   * Security: The code explicitly uses general-purpose randomness (random.choices) and does not utilize secure, cryptographically strong random number generation, which is essential for high-security                  applications.
 
-   *Time or Event Logic: It does not implement complex security algorithms like Time-Based OTP (TOTP) or HMAC-Based OTP (HOTP).
+   * Time or Event Logic: It does not implement complex security algorithms like Time-Based OTP (TOTP) or HMAC-Based OTP (HOTP).
 
-   *Application Logic: It does not handle the application-side lifecycle of an OTP, such as storing the generated code, setting its expiration time, or validating a user's input against it.
+   * Application Logic: It does not handle the application-side lifecycle of an OTP, such as storing the generated code, setting its expiration time, or validating a user's input against it.
 
-   *Integration: It is a standalone utility and lacks features for external delivery via email or SMS.
+   * Integration: It is a standalone utility and lacks features for external delivery via email or SMS.
 
 # Target Users
 The primary audience for this utility consists of developers, software engineers, and application builders who need a quick, basic tool for generating random strings or codes.
 
 These users typically include:
 
-   *Developers in Prototyping/Testing Phases: Engineers who are building security features and need a simple, fast way to generate mock or test tokens.
+   * Developers in Prototyping/Testing Phases: Engineers who are building security features and need a simple, fast way to generate mock or test tokens.
 
-   *Creators of Internal/Utility Tools: Individuals building scripts or small applications that require non-critical random codes (e.g., generating short temporary IDs or basic session identifiers).
+   * Creators of Internal/Utility Tools: Individuals building scripts or small applications that require non-critical random codes (e.g., generating short temporary IDs or basic session identifiers).
 
-   *Students/Educators: Those learning the basics of random string generation and object-oriented programming in Python.
+   * Students/Educators: Those learning the basics of random string generation and object-oriented programming in Python.
 
 # High-Level Features
 The SimpleOTP class provides a concise set of features focused on variation and ease of use:
