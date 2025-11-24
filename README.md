@@ -28,9 +28,9 @@ Language: Python 3.x
 
 Standard Library Modules:
 
-   random: Used for cryptographic-quality random selection of characters.
+   * random: Used for cryptographic-quality random selection of characters.
 
-   string: Used to easily access predefined character sets (e.g., ascii_lowercase, digits).
+   * string: Used to easily access predefined character sets (e.g., ascii_lowercase, digits).
 
 ● Steps to Install & Run the Project
 
@@ -56,13 +56,13 @@ To verify that the generator is working correctly and securely, follow these tes
 
 3. Verify Character Sets (Per Property):
 
-     ●  digits: Confirm that the output only contains characters from 0 through 9.
+     *  digits: Confirm that the output only contains characters from 0 through 9.
 
-     ● uppercase_digits: Confirm the output contains only characters from A-Z and 0-9. It should not contain any lowercase letters.
+     * uppercase_digits: Confirm the output contains only characters from A-Z and 0-9. It should not contain any lowercase letters.
 
-     ● smallcase_digits: Confirm the output contains only characters from a-z and 0-9. It should not contain any uppercase letters.
+     * smallcase_digits: Confirm the output contains only characters from a-z and 0-9. It should not contain any uppercase letters.
 
-     ● all: Confirm the output can contain a mix of uppercase, lowercase, and digits.
+     * all: Confirm the output can contain a mix of uppercase, lowercase, and digits.
 
 ● Screenshots (Output Example)
 
