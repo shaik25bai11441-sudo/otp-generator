@@ -1,14 +1,14 @@
-SimpleOTP Generator 
+# SimpleOTP Generator 
 
-● Project Title
+#  ● Project Title
 
 SimpleOTP Generator
 
-● Overview of the Project
+#  ● Overview of the Project
 
 The SimpleOTP Generator is a lightweight Python class designed to create secure, fixed-length, random strings suitable for use as One-Time Passwords (OTPs) or temporary codes. It utilizes Python's built-in random and string modules to ensure high entropy and allows the developer to easily select the desired character set (e.g., digits only, alphanumeric) for the generated OTP.
 
-● Features
+#  ● Features
 
 The SimpleOTP class provides the following features through easy-to-access @property decorators:
 
@@ -22,7 +22,7 @@ The SimpleOTP class provides the following features through easy-to-access @prop
 
 5.Customizable Length: The length of the generated OTP is defined when initializing the SimpleOTP class.
 
-● Technologies/Tools Used
+#  ● Technologies/Tools Used
 
 Language: Python 3.x
 
@@ -32,7 +32,7 @@ Standard Library Modules:
 
    * string: Used to easily access predefined character sets (e.g., ascii_lowercase, digits).
 
-● Steps to Install & Run the Project
+#  ● Steps to Install & Run the Project
 
 Since this is a single, self-contained Python script, no special installation is required beyond having a standard Python 3 interpreter.
 
@@ -46,7 +46,7 @@ Execute the Script: Open your terminal or command prompt, navigate to the direct
 
 The script will execute the demonstration code at the bottom, printing four different types of generated OTPs to the console.
 
-● Instructions for Testing
+#  ● Instructions for Testing
 
 To verify that the generator is working correctly and securely, follow these testing steps:
 
@@ -64,6 +64,6 @@ To verify that the generator is working correctly and securely, follow these tes
 
      * all: Confirm the output can contain a mix of uppercase, lowercase, and digits.
 
-● Screenshots (Output Example)
+#  ● Screenshots (Output Example)
 
 <img width="303" height="93" alt="Screenshot 2025-11-25 021135" src="https://github.com/user-attachments/assets/55aced31-c475-43bb-bf86-127338c951d1" />
