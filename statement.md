@@ -5,7 +5,7 @@ The core issue this code resolves is the necessity for a simple, adaptable, and 
 # Scope of the Project
 The scope of the SimpleOTP project is narrow and focused on basic code generation utility.
 
-#   * Inclusions:
+#    Inclusions:
 
    * It provides a dedicated class (SimpleOTP) for managing the generation of random strings.
 
@@ -15,7 +15,7 @@ The scope of the SimpleOTP project is narrow and focused on basic code generatio
 
    * It relies exclusively on standard Python libraries (random and string).
 
-#   * Exclusions:
+#    Exclusions:
    
    * Security: The code explicitly uses general-purpose randomness (random.choices) and does not utilize secure, cryptographically strong random number generation, which is essential for high-security                  applications.
 
