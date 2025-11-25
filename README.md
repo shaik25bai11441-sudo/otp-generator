@@ -27,6 +27,7 @@ The SimpleOTP class provides the following features through easy-to-access @prop
 Language: Python 3.x
 
 Standard Library Modules:
+   * numpy
 
    * random: Used for cryptographic-quality random selection of characters.
 
